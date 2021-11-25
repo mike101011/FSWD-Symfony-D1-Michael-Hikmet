@@ -1,0 +1,55 @@
+body {
+  font-family: "Tangerine", cursive;
+  background: rgb(123, 32, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(123, 32, 12, 1) 12%,
+    rgba(22, 23, 72, 1) 38%,
+    rgba(16, 77, 124, 1) 67%,
+    rgba(0, 255, 89, 1) 95%
+  );
+  font-size: 2em;
+}
+.heading {
+  color: red;
+  padding: 0.5em;
+  font-size: 3em;
+}
+h3 {
+  font-size: 2.7em;
+}
+h4 {
+  font-size: 2.5em;
+}
+h5 {
+  font-size: 2.3em;
+}
+.hero {
+  background-image: url("https://my-redweb.com/uploads/DARKFILES/upload-private/888/data/1578664125-Banner.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 20rem;
+}
+#dome {
+  max-width: 50%;
+  margin-left: 25%;
+  box-shadow: 0px 0px 21px 22px grey;
+  margin-bottom: 4em;
+}
+#program {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.upper {
+  margin-left: 12%;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5em;
+  background-color: burlywood;
+  font-weight: bold;
+}
